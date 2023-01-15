@@ -51,3 +51,6 @@ fi
 #   pactl set-source-mute 0 1 # Mute PulseAudio Microphone.
 #   notify-send -r "$nid" -i discord -e Discord 'Microphone Muted!'
 # fi
+
+# Exit Current Terminal After Running This Script
+kill -9 $PPID
